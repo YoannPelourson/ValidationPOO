@@ -32,6 +32,12 @@
                     $hero->fireball($foe);
                 }
                 
+                if($hero->hp <= 0 || $foe->hp <= 0){
+                    RenderHelperClass::displayTemplate('end');
+                    
+                } else {
+                    header('location: index.php');
+                }
             }
             if(isset($_SESSION['fighters'])){
                 //afficher ecran combat
