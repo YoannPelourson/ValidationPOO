@@ -1,0 +1,41 @@
+// Une classe Guitare
+/*
+    Nombre de cordes
+    Couleur de la guitare
+    Type de bois
+    Type 
+    Nombre de micro
+
+    jouer
+    accorder
+    prendre feu
+*/
+
+/*class GuitarClass
+{
+    //properties
+    public $cordsNumber = 6;
+    public $color = 'white';
+    public $woodType = 'ebony';
+    public $type ='electric';
+    public $mics = 3;
+
+    //methods
+    public function play()
+    {
+        return "Johnny be good";
+    }
+    public function tune()
+    {
+        return "Drop D";
+    }
+    public function burn()
+    {
+        return "Hendrix";
+    }
+};  
+
+$gibson  = new GuitarClass();
+$gibson->wood = 'Fir';
+var_dump($gibson->wood);
+*/
